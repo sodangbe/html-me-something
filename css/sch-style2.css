@@ -1,0 +1,287 @@
+.sch-title-demo {
+    text-align: center;
+    margin: 50px 0;
+    font-weight: bold;
+    font-style: italic;
+}
+#nav-races  .sch-title {
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
+	font-family: 'Pacifico';
+}
+#nav-races .sch-title  i{
+	color:#c53821;
+}
+#nav-races .sch-style-light {
+    margin-bottom: 50px;
+    background: #fff;
+}
+#nav-races .sch-style-light .sch-title {
+	color:#222;
+}
+
+#nav-races .sch-style-dark {
+    margin-bottom: 50px;
+    padding: 50px 0;
+    background: #222;
+}
+#nav-races .sch-style-dark .sch-title {
+	color:#fff;
+}
+
+#nav-races .sch-races {
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+}
+
+#nav-races .sch-races .sch-bg{
+	position:relative;
+}
+
+#nav-races .sch-races .sch-bg img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#nav-races .sch-races .sch-social {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    top: 25px;
+    left: 0;
+    margin: 0 auto;
+	max-width: 50px;
+	padding:0;
+	list-style:none;
+}
+
+
+#nav-races .sch-races .sch-social li {
+  width: 50px;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  position: relative;
+}
+
+#nav-races .sch-races .sch-social li.middle a {
+  left: 0;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  transition: all .4s ease-in-out 0s;
+}
+
+#nav-races .sch-races .sch-social a.facebook {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #4264AA;
+}
+
+#nav-races .sch-races .sch-social a.twitter {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  background-color: #6CB7F0;
+}
+
+#nav-races .sch-races .sch-social li a {
+  color: #fff;
+  font-size: 30px;
+}
+
+
+#nav-races .sch-races:hover .sch-social li .facebook {
+  left: -65px;
+}
+
+#nav-races .sch-races:hover .sch-social li .twitter {
+  left: 65px;
+}
+
+#nav-races .sch-races:hover .sch-social li:hover span {
+  opacity: 1;
+}
+
+#nav-races .sch-races .sch-social i {
+    color: #fff;
+    cursor: pointer;
+    background:#6135ae;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+	font-size:16px;
+	margin-bottom: 10px;
+}
+
+#nav-races .sch-races .sch-social i:hover{
+    color: #6135ae;
+    background:#fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+#nav-races .sch-races .sch-social i:last-child {
+	margin-bottom: 0px;
+}
+
+#nav-races .sch-races .sch-images {
+    display: inline-block;
+}
+
+#nav-races .sch-races .sch-images img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-top: -50%;
+    z-index: 1;
+    position: relative;
+}
+
+#nav-races .sch-races .sch-info {
+    position: relative;
+    padding-bottom: 70px;
+}
+
+#nav-races .sch-races .sch-info .sch-name {
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #6135ae;
+}
+
+#nav-races .sch-races .sch-info .sch-races{
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #6135ae;
+}
+
+#nav-races .sch-races .sch-info .sch-button-description {
+    display:inline-block;
+}
+
+#nav-races .sch-races .sch-info .sch-button-description a {
+    padding: 10px 30px;
+    background: #6135ae;
+    color: #fff;
+    display:inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+	border-radius:10px;
+	border:1px solid transparent;
+}
+
+#nav-races .sch-races .sch-info .sch-button-description a:hover {
+    background: #fff;
+    color: #6135ae;
+	border:1px solid #6135ae;
+}
+
+#nav-races .sch-races .sch-info .sch-button-heart {
+    background: #6135ae;
+    width: 100px;
+    text-align: center;
+    position: absolute;
+    bottom: -25px;
+    transform: rotate(44deg);
+    left: -38px;
+    color: #fff;
+	height:70px;
+}
+#nav-races .sch-races .sch-info  .sch-button-heart i{
+    line-height:45px;
+	color:#fff;
+	transform: rotate(-44deg);
+}
+#nav-races .sch-races .sch-info  .sch-button-like {
+    background: #6135ae;
+    width: 100px;
+    text-align: center;
+    position: absolute;
+    bottom: -25px;
+    transform: rotate(-44deg);
+    right: -38px;
+    color: #fff;
+	height:70px;
+}
+#nav-races .sch-races .sch-info  .sch-button-like i{
+    line-height:45px;
+	color:#fff;
+	transform: rotate(44deg);
+}
+
+
+@media (min-width:768px) and (max-width:979px){
+	#nav-races .sch-races .sch-info .sch-button-description a {
+		padding: 5px 10px;
+		font-size: 12px;
+	}
+	#nav-races .sch-races .sch-bg img {
+		height: 140px;
+	}
+	#nav-races .sch-races .sch-images img {
+		width: 100px;
+		height: 100px;
+	}
+	#nav-races .sch-races .sch-info .sch-name {
+		font-size: 18px;
+	}
+	#nav-races .sch-races .sch-info .sch-races,#nav-races .sch-races .sch-social i {
+		font-size: 14px;
+	}
+	#nav-races .sch-races .sch-social{
+		max-width: 30px;
+	}
+	#nav-races .sch-races .sch-social li.middle a{
+		width: 30px;
+		height: 30px;
+	}
+	#nav-races .sch-races .sch-social i,#nav-races .sch-races .sch-social li{
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+	}
+	#nav-races .sch-races:hover .sch-social li .facebook {
+		left: -40px;
+	}
+	#nav-races .sch-races:hover .sch-social li .twitter {
+		left: 40px;
+	}
+	#nav-races .sch-races .sch-social {
+		right: -10px;
+	}
+}
+@media (min-width:578px) and (max-width:767px){
+	#nav-races .col-md-3 {
+        margin-bottom: 30px;
+    }
+	#nav-races .col-md-3:nth-child(3) {
+        margin-bottom: 0px;
+    }
+	#nav-races .col-md-3:nth-child(4) {
+        margin-bottom: 0px;
+    }
+}
+@media only screen and (max-width:577px){
+	#nav-races .col-md-3 {
+        margin-bottom: 30px;
+    }
+	#nav-races .col-md-3:last-child {
+        margin-bottom: 0px;
+    }
+}
+
